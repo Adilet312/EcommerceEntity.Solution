@@ -17,14 +17,10 @@
             <div class="card-footer">
              
                 <h5 class="card-title">@product.Name</h5>
-                <p class="product-link">@Html.ActionLink("See Details", "Details", new {DetailsID = product.ProductId})</p>
+                <p class="product-link">@product.Price.00 $</p>
    
             </div>
         </div>
     }
     
 </div>  
-
-
-
-   

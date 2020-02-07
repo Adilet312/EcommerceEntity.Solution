@@ -8,10 +8,9 @@ namespace Ecommerce.Models
         public Order Order { get; set; }
         public Product Product { get; set; }
 
-        public OrderProduct(int ProductId, int OrderId)
+        public OrderProduct()
         {
-            this.OrderId = OrderId;
-            this.ProductId = ProductId; 
+            
         }
     }
 }
