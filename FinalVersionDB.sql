@@ -30,7 +30,6 @@ CREATE TABLE OrderProduct(
 CREATE INDEX IX_OrderProduct_OrderProductId ON OrderProduct(OrderProductId);
 
 /*Populate DataBase with data*/
-/*There are four different products*/
 INSERT INTO Products
 			VALUES
 					 (1, "Gortex Backpack","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu non odio euismod lacinia at. Consequat interdum varius sit amet mattis vulputate enim nulla. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Sit amet volutpat consequat mauris nunc congue nisi vitae. Lorem mollis aliquam ut porttitor leo a. Nibh tellus molestie nunc non. Urna cursus eget nunc scelerisque. Nullam vehicula ipsum a arcu cursus vitae congue. Facilisis sed odio morbi quis commodo odio aenean. Orci ac auctor augue mauris.", 57, "187420-1217", "https://picsum.photos/200" ),
