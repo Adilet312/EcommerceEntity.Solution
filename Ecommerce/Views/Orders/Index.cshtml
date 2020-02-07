@@ -10,17 +10,20 @@
 
     @foreach(Product product in Model)
     {  
-        <div class="card product-card">
-            <div class="card-header">
-            <img class="product-images" src=@product.ProductImage alt="Image of Product">
+        
+        
+            <div class="card product-card">
+                <div class="card-header">
+                <img class="product-images" src=@product.ProductImage alt="Image of Product">
+                </div>
+                <div class="card-footer">
+                
+                    <h5 class="card-title">@product.Name</h5>
+                    <p class="product-link">@product.Price.00 $</p>
+    
+                </div>
             </div>
-            <div class="card-footer">
-             
-                <h5 class="card-title">@product.Name</h5>
-                <p class="product-link">@product.Price.00 $</p>
-   
-            </div>
-        </div>
+        
     }
     
 </div>  
